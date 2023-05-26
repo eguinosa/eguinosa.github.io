@@ -36,7 +36,14 @@
         /* -- Bio Styles -- */
         .bio-wrapper {
             font-size: 24px;
-            overflow: hidden;
+        }
+        .bio-wrapper::after{
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
         }
         .bio-box {
             border: 2px solid black;
