@@ -1,2 +1,6 @@
 # Ignore macOS system files.
 .DS_Store
+
+## Jekyll files & folders.
+.jekyll-cache/
+_site/
