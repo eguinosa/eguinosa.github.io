@@ -31,7 +31,14 @@ a {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+.header-nav a:hover,
+.header-nav a:active {
+    color: #ed6e2f;
+}
+.header-logo:hover,
+.header-logo:active {
+    opacity: 0.5;
+}
 
 /* -- Hero Styles -- */
 .full-hero {
@@ -56,6 +63,11 @@ a {
     text-decoration: none;
     vertical-align: middle;
     width: 2.5em;
+}
+.social-link:hover, 
+.social-link:active {
+    color: #86f3f3;
+    opacity: 0.8;
 }
 .social-list {
     list-style: none; 
